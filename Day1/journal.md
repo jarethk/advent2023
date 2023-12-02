@@ -1,0 +1,2 @@
+Part 1 - fairly simple regex, match the digits, filter for the first and last, and join them.
+Part 2 - ah, Advent of Code you always add fun twists.  I wonder how quickly people catch the twist within a twist.  Requires a little more work to parse the line, but not too bad.  I really need to create or find a light weight reduce function library.
