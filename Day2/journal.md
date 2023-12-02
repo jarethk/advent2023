@@ -1,0 +1,2 @@
+Part 1 - ok, a little bit of regex to see if the red/green/blue values are valid.  Keeping it easy.
+Part 2 - this was more fun to solve for.  Turn each game round into an object, name/value pairs, with the color and keep the highest value used for each color (the _fewest_ in the instructions could be misleading).
