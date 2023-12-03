@@ -1,1 +1,3 @@
 Part 1 - efficiency is the key.  We don't need to worry about the whole grid, just the current and prior row. I started out backwards, by only saving the ones that didn't have an adjacent symbol.  An extra step in my method that clears out numbers with adjacent symbols fixed that.
+
+Part 2 - ok, now we have to deal with up to 3 rows, looking for gears "*" that are adjacent to two numbers.  But to keep the logic similar to what we have now, instead of removing whatever is associated with any symbol, just do it for "*" and keep track of what "*" it is related to.

@@ -56,12 +56,6 @@ for await (const line of file.readLines()) {
             }
         }
     }
-    if (priorRow) {
-        dl(`testing prior row ${priorRow}`)
-        let rn = priorRow.join("").match(/\d+/g);
-        if (rn)
-            remainingNumbers.push(...rn.map(v => ~~v));
-    }
     priorRow = currentRow;
     dl(`updated row ${currentRow} `);
 }
