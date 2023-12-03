@@ -1,0 +1,1 @@
+Part 1 - efficiency is the key.  We don't need to worry about the whole grid, just the current and prior row. I started out backwards, by only saving the ones that didn't have an adjacent symbol.  An extra step in my method that clears out numbers with adjacent symbols fixed that.
