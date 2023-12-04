@@ -1,0 +1,1 @@
+Part 1 - so we have winning numbers, and our game numbers.  So split the lists, make the winning numbers a map, set to 0, and update as 1 if the winning number is in our game numbers.  Plus a little bit of math, and we have the first answer.
