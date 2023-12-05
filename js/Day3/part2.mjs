@@ -31,13 +31,6 @@ function clearNumber(row, startIndex, gearKey) {
     }
 }
 
-function hasNearbyGear(row, fromIndex) {
-    if (priorRow &&
-        (priorRow[fromIndex - 1] === "*" ||
-            priorRow[fromIndex] === "*" ||
-            priorRow[fromIndex + 1] === "*")) return true;
-}
-
 for await (const line of file.readLines()) {
     let currentRow = line.split("");
     for (let c = 1; c < currentRow.length; c++) {
