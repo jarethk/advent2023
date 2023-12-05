@@ -1,1 +1,3 @@
 Part 1 - so we have winning numbers, and our game numbers.  So split the lists, make the winning numbers a map, set to 0, and update as 1 if the winning number is in our game numbers.  Plus a little bit of math, and we have the first answer.
+
+Part 2 - now we have to deal with copies of the scratch cards.  Not a big deal, start with an array where the positions are the game numbers, and the value is how many copies we have.  When we start a game, if the game numbers array doesn't recognize the game, initialize it to 1.  If we win, initialize/increment the next number of games.
