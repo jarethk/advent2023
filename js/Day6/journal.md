@@ -1,1 +1,3 @@
 Part 1 - I lost time on this one trying to come up with some fancy math to figure out how many winners there would be.  Switched to just generating the scores, and finished almost immediately.
+
+Part 2 - ok, time for shortcut.  Can't do the full array of winners here, but the shortcut answer is even simpler than what I'd tried before.  Just need to figure out how many until we switch from losing to winning, it will match on the back side.
