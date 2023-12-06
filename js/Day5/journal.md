@@ -1,0 +1,1 @@
+Part 1 - original instinct was to create an object to track how each number maps through the changes.  Decided to keep it simpler with just keeping one array and translating as we go.
