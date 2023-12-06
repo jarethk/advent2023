@@ -1,0 +1,1 @@
+Part 1 - I lost time on this one trying to come up with some fancy math to figure out how many winners there would be.  Switched to just generating the scores, and finished almost immediately.
