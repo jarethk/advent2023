@@ -1,1 +1,3 @@
 Part 1 - original instinct was to create an object to track how each number maps through the changes.  Decided to keep it simpler with just keeping one array and translating as we go.
+
+Part 2 - now instead of seeds we have pairs of seed start and volume.  So at each mapping we might be splitting that group, or not.  It took quite a few tries to get the logic right.  If any part of our number range is below the translation range, or above the translation range, split that subset and set aside to check the next translation range.  What is left, translate the new base of the range, oh and make sure we had adjusted the range width too.
