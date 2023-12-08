@@ -1,3 +1,3 @@
 Part 1 - So we're playing the cards.  Logic to score the hands is fairly clear, group and count the cards in each hand, and use those counts to score the hands.  Rank ordering them means also looking at the cards, so to simplify things I've translated the cards to letters in order of value, so 2 is a and A is m.  This way with rank ordering I can do a simple string compare;
 
-Part 2 - 
+Part 2 - Now we have jokers.  Should have seen that coming.  Lots of extra conditions to account for in the scoring.  Initially tripped up, thinking that in the last set of rules having 2 or 3 jokers would be 2 of a kind or 3 of a kind.  Really they were 3 of a kind and 4 of a kind.  
