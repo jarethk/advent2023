@@ -1,0 +1,1 @@
+Part 1 - Simple iterating over instructions, keeping step counts.  No Worry.
