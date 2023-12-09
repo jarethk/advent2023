@@ -1,1 +1,3 @@
 Part 1 - Simple iterating over instructions, keeping step counts.  No Worry.
+
+Part 2 - We need to do the same pathing, but for multiple paths in parallel.  It could take forever for all of the paths to coalesce.  So find out how long it takes each path to end, then use a little math with Least Common Multiple (lcm) and Greatest Common Denomimator (gcd) to reduce those distances to one common and very large number.
