@@ -1,8 +1,8 @@
 {
     "dependencies": {
-        "geometry": "file:../geometry",
+        "geometry": "file:../../geometry",
         "lodash-es": "~4.17.21",
-        "num-wrap": "file:../num-wrap"
+        "num-wrap": "file:../../num-wrap"
     },
     "devDependencies": {
         "eslint": "^8.31.0",
