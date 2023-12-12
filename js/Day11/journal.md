@@ -1,0 +1,3 @@
+Part 1 - manhattan distances, not too difficult.  Dealing with galactic expansion efficiently...  If we have a clear row, that is easy to just add two.  To keep things simpler, as we're processing the inputs figure out which rows shouldn't be expanded, so later we know which ones to expand.  
+
+Part 2 - instead of inserting the actual rows/columns in the spreadsheet, we now have to do 1000000 empty rows which is just too much.  So when we're calculating the distance, see how many rows/columns are in our list to expand and add (1000000-1) for each one that should expand.  Because math is always faster and more efficient than row expansion.
