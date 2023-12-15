@@ -21,9 +21,9 @@ function scoreBlock2(block) {
         let min = Math.min(l1, block.length - l1);
         let part1 = block.slice(0, l1).reverse().slice(0, min);
         let part2 = block.slice(l1).slice(0, min);
-        console.log(`Checking slice ${l1}: ${part1}`)
-        console.log(`      vs slice ${l1}: ${part2}`)
-        if (part1.every((p, idx) => p === part2[idx])) {
+        //console.log(`Checking slice ${l1}: ${part1}`)
+        //console.log(`      vs slice ${l1}: ${part2}`)
+        if (compareArrays(part1, part2)) {
             console.log(`Found mirror: ${(l1) + 1}`);
             score = (l1);
             return score;
@@ -51,6 +51,7 @@ for await (const line of file.readLines()) {
         block.push(line);
     } else {
         scores.push(scoreBlock(block));
+        block = [];
     }
 }
 scores.push(scoreBlock(block));
