@@ -1,0 +1,1 @@
+Part 1 - for each column, process my way down, looking at how far up each boulder could be moved, and move them all the way up as far as they can go in one step rather than doing it iteratively.  Some quick filter/count/math and we get our load.
