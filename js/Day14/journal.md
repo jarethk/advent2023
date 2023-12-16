@@ -1,1 +1,3 @@
 Part 1 - for each column, process my way down, looking at how far up each boulder could be moved, and move them all the way up as far as they can go in one step rather than doing it iteratively.  Some quick filter/count/math and we get our load.
+
+Part 2 - at first I thought eventually the boulders would be locked in place, but that never happened.  Then I realized it was cycle detection, once we see the same rock pattern we've seen before then we've hit a loop.  As cycle detection goes this is the simplest type.  Kept a map of state along with the cycle we saw that state, using a Map for performance.  Plus a little bit of math for how many cycles to skip ahead, use the past states to pull the end state from our history.
