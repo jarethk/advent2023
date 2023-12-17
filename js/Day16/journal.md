@@ -1,3 +1,3 @@
-8232 - too high
+Part 1 - light ray tracing.  A bit of a mixup with first attempts, led to double-counting some edges.  Tried an alternate method that just wasn't right.  Finally figured out the goof with first algorithm and fixed it.
 
-7998 - too low
+Part 2 - brute forced.  Could have been smarter, there are points where each might exit the grid, and I could have used that info to reduce the number of cycles, but still ran in under 6 seconds.
