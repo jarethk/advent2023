@@ -1,1 +1,3 @@
 Part 1 - interpreted operational evaluation.  There might be faster ways, but other than a few typos and forgetting some parseInt statements this one wasn't too bad.
+
+Part 2 - this one took a bit to think through.  At first I was thinking to collapse the functions to make them run faster, but that would be too many permutations even if it is fast.  Instead, if we can figure out the valid ranges for each x-m-a-s in each branch that leads to an A, we can multiply them together for the solution.  It took a couple passes to find the right way to keep track of the x-m-a-s min/max ranges in each branch, but we end up running very fast.
