@@ -1,0 +1,1 @@
+Part 1 - interpreted operational evaluation.  There might be faster ways, but other than a few typos and forgetting some parseInt statements this one wasn't too bad.
