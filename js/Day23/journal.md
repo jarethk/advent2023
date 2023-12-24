@@ -1,0 +1,1 @@
+Part 1 - there's no way to not process all of the paths in this one.  To simplify a bit, first identify the points where the path branches, and measure the distance from a branch point to the next branch or the end.  Then reduce it backwards keeping the longest path from each branch.
