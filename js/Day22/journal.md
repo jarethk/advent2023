@@ -1,1 +1,3 @@
 Part 1 - have to collapse states of 3-dimensional space with gravity only on z.  First sort the bricks by z, and then from the bottom up we pull them down.  Should only take 1 pass, but I do a 2nd pass just-in-case (ie. for no reason).  Once settled, map out what bricks are above/below each other, and use that to determine what could be removed if the bricks above are resting on a 2nd brick.
+
+Part 2 - everything I had for Part 1 helped with Part 2.  I already knew what was above and below each brick, and used a Set to keep track of what bricks would collapse after each removable brick is removed.  I spun my wheels for a bit because I was adding to my set of collapsing ids a step too soon.
