@@ -1,1 +1,3 @@
 Part 1 - there's no way to not process all of the paths in this one.  To simplify a bit, first identify the points where the path branches, and measure the distance from a branch point to the next branch or the end.  Then reduce it backwards keeping the longest path from each branch.
+
+Part 2 - ok, no path blocks, so each branch point has more branching paths.  First take out that filter and see how broken it is! ;)  So, it was slow, and I ended up completely replacing the longest path logic.  And then I made a slight mistake setting up a BFS when I should have done a DFS, and that change got it to finish in under 2 seconds.
