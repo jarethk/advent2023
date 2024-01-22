@@ -1,0 +1,3 @@
+Part 1 - a modified Dijkstra trying to find ways to deal with the min/max directional travel.  Keeping a lot of info in the game state, perhaps too much, and a bit slow, but it is working.
+
+Part 2 - Much too slow.  First need to simplify what is stored in the queue.  Just need to keep current position and how long we've been traveling in that direction.  Then need to better manage what's been visited.  Went a couple times through, with just the coordinates or coordinates and direction.  Few more improvements, filter directions so we don't go backwards, always make sure when going a new direction we go minimum times and not just one step at a time, and fix a bug in the priority queue data type, and we're running with the answer in 10 seconds.  
