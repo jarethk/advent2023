@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { open } from 'node:fs/promises';
 import { getAdjacent } from 'geometry/space2d.js';
-import path from 'node:path';
 
 const debug = 0;
 const dl = log => { if (debug) console.log(log); };
